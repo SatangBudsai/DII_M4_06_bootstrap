@@ -14,16 +14,31 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>06 bootstrap</title>
   </head>
   <body>
-    <h1 class="display-4">My simple web page</h1>
-    <i class="bi-alarm"></i>
-    <i class="bi-alarm"></i>
-    <i class="bi-alarm"></i>
-    <i class="bi-alarm"></i>
-    <i class="bi-alarm"></i>
+    <div class="container set-0">
+      <div class="row align-items-center">
+        <div class="col-3">
+          <img src="images/logo.svg" width="100rem" ath="logo" />
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-5 p-0">
+              <input
+                class="form-control form-control-borderless"
+                type="search"
+                placeholder="Search"
+              />
+            </div>
+            <div class="col-2 p-0">
+              <button class="btn btn-secondary" type="submit">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
