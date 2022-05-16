@@ -8,4 +8,16 @@
     height: 20vh;
     object-fit: contain;
 }
-
+.bg-content{
+    background-color:rgb(243, 243, 243);
+}
+.img-content{
+    max-height:17rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.img-slide{
+    max-height:7rem;
+    object-fit: cover;
+}
