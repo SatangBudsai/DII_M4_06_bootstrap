@@ -1,6 +1,11 @@
-.h-8{
-    height:8rem;
+.set-0{
+    padding: 0;
+    margin: 0;
 }
-.h-4 {
-    height: 4rem;
+.card>img {
+    margin: 0.8rem;
+    padding: 0.8rem;
+    height: 20vh;
+    object-fit: contain;
+}
 }
