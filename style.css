@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    margin: 5em;
+    width: 30em;
+    flex-direction: column;
+}
+
+.used {
+    color: rgb(106, 99, 99);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-purple {
+    background-color: rgb(101, 19, 164)
+}
+
+.footer {
+    display: flex;
+}
+
+.footer>div {
+    margin-top: 5px;
+    margin-right: 1em;
+}
+
+.tx-purple {
+    color: rgb(101, 19, 164);
+}
